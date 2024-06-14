@@ -1,2 +1,88 @@
-main {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
+
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+li input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+li button.primary {
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+}
+
+li button.danger {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: calc(100% - 80px);
+  margin-right: 10px;
+}
+.flex {
+  gap:2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.add {
+  background-color: #5cb85c;
+  color: #fff;
+  border: none;
+}
+
+button.add:hover {
+  background-color: #4cae4c;
+}
+
